@@ -1,5 +1,5 @@
 <?php
-    date_default_timezone_set("Asia/kolkata");
+    date_default_timezone_set("Asia/Jakarta");
     //Data From Webhook
     $content = file_get_contents("php://input");
     $update = json_decode($content, true);
@@ -12,7 +12,7 @@
 
     //Start message
     if($message == "/start"){
-        send_message($chat_id, "Hey $firstname  \nUse /weather <word>   \nWeather Bot by @reboot13 ");
+        send_message($chat_id, "Hey $firstname  \nUse /weather <word>   \nWeather Bot by @embex ");
     }
 
 
