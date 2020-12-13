@@ -1,7 +1,7 @@
 <?php
 
 ///////////Bot By Reboot13
-    date_default_timezone_set("Asia/kolkata");
+    date_default_timezone_set("Asia/Jakarta");
     //Data From Webhook
     $content = file_get_contents("php://input");
     $update = json_decode($content, true);
